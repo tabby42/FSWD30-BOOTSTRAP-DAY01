@@ -1,0 +1,21 @@
+div[class|="col"] {
+	min-height:  350px;
+	background-color: #fff;
+	border: 1px solid blue;
+}
+
+.row {
+	padding:  15px;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.gray {
+	background-color: gray;
+}
