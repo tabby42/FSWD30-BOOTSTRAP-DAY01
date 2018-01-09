@@ -1,11 +1,15 @@
 div[class|="col"] {
-	min-height:  350px;
+	min-height:  120px;
 	background-color: #fff;
-	border: 1px solid blue;
+	border: 1px solid #000;
+}
+
+div[class|="yt"] {
+	min-height: 120px;
 }
 
 .row {
-	padding:  15px;
+	padding: 15px;
 }
 
 .red {
@@ -18,4 +22,22 @@ div[class|="col"] {
 
 .gray {
 	background-color: gray;
+}
+
+.yt-dark {
+	background-color: #BF4040;
+}
+
+div.yt-light {
+	background-color: #A97F7F;
+	border:  0;
+}
+
+.row > div:last-child {
+	padding-right:  0;
+}
+
+h3.h3 {
+	color: #fff;
+	margin-top:  10px;
 }
